@@ -1391,6 +1391,10 @@ repositories:
     type: svn
     url: https://alufr-ros-pkg.googlecode.com/svn/trunk/symbolic_planning
     version: HEAD
+  tf2_web_republisher:
+    type: git
+    url: https://github.com/RobotWebTools/tf2_web_republisher.git
+    version: groovy
   tulip_simulator:
     type: svn
     url: https://robotics.wtb.tue.nl/svn/ros/release/groovy/tulip_simulator
