@@ -7,10 +7,6 @@ repositories:
     type: git
     url: https://github.com/ros/actionlib.git
     version: groovy-devel
-  actionlibjs:
-    type: git
-    url: https://github.com/RobotWebTools/actionlibjs.git
-    version: groovy-devel
   arbotix:
     type: git
     url: https://github.com/vanadiumlabs/arbotix_ros.git
@@ -48,9 +44,9 @@ repositories:
     url: https://kforge.ros.org/robotmodel/convex_decomposition
     version: default
   dynamic_reconfigure:
-    type: hg
-    url: https://kforge.ros.org/dynamicreconfig/dynamic_reconfigure
-    version: default
+    type: git
+    url: https://github.com/ros/dynamic_reconfigure.git
+    version: master
   ecl_core:
     type: git
     url: https://github.com/stonier/ecl_core.git
@@ -178,7 +174,7 @@ repositories:
   nodelet_core:
     type: git
     url: https://github.com/ros/nodelet_core.git
-    version: master
+    version: groovy-devel
   object_recognition_capture:
     type: git
     url: http://github.com/wg-perception/capture.git
@@ -314,7 +310,7 @@ repositories:
   rx:
     type: git
     url: https://github.com/ros-visualization/rx.git
-    version: master
+    version: groovy-devel
   serial:
     type: git
     url: https://github.com/wjwwood/serial.git
